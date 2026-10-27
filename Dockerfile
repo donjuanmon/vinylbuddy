@@ -1,6 +1,6 @@
 # Dockerfile for Vinyl Buddy (Backend + Static Frontend)
 
-FROM node:20-alpine
+FROM node:24-alpine
 
 # Install ffmpeg and chromaprint (fpcalc)
 RUN apk add --no-cache ffmpeg chromaprint
